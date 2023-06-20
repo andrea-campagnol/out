@@ -1,0 +1,16 @@
+{
+    "name": "test.mbtiles",
+    "description": "test.mbtiles",
+    "version": "2",
+    "minzoom": "0",
+    "maxzoom": "14",
+    "center": "12.411053,45.459281,14",
+    "bounds": "12.411053,45.459281,12.411546,45.459633",
+    "antimeridian_adjusted_bounds": "12.411053,45.459281,12.411546,45.459633",
+    "type": "overlay",
+    "format": "pbf",
+    "generator": "tippecanoe v2.26.1",
+    "generator_options": "tippecanoe -o test.mbtiles test.geojson",
+    "strategies": "[{\"tiny_polygons\":1},{\"tiny_polygons\":1},{\"tiny_polygons\":1},{\"tiny_polygons\":1},{\"tiny_polygons\":1},{\"tiny_polygons\":1},{\"tiny_polygons\":1},{\"tiny_polygons\":1},{\"tiny_polygons\":1},{\"tiny_polygons\":1},{},{},{},{},{}]",
+    "json": "{\"vector_layers\":[{\"id\":\"test\",\"description\":\"\",\"minzoom\":0,\"maxzoom\":14,\"fields\":{\"CAN_LAG_TY\":\"String\",\"CODICE\":\"String\",\"LARGH_MAX\":\"Number\",\"ORIGINE\":\"String\",\"SCRIL\":\"String\",\"SHAPE_AREA\":\"Number\",\"SHAPE_LEN\":\"Number\",\"STAZZA_MAX\":\"Number\",\"TC_CODDEN\":\"Number\",\"TIPO_MOD\":\"String\",\"VEL_MAX\":\"Number\",\"VEL_MAX_MP\":\"Number\",\"color\":\"String\",\"wh\":\"Number\"}}],\"tilestats\":{\"layerCount\":1,\"layers\":[{\"layer\":\"test\",\"count\":1,\"geometry\":\"Polygon\",\"attributeCount\":14,\"attributes\":[{\"attribute\":\"CAN_LAG_TY\",\"count\":1,\"type\":\"string\",\"values\":[\"50\"]},{\"attribute\":\"CODICE\",\"count\":1,\"type\":\"string\",\"values\":[\"040150\"]},{\"attribute\":\"LARGH_MAX\",\"count\":1,\"type\":\"number\",\"values\":[0],\"min\":0,\"max\":0},{\"attribute\":\"ORIGINE\",\"count\":1,\"type\":\"string\",\"values\":[\"01\"]},{\"attribute\":\"SCRIL\",\"count\":1,\"type\":\"string\",\"values\":[\"01\"]},{\"attribute\":\"SHAPE_AREA\",\"count\":1,\"type\":\"number\",\"values\":[0],\"min\":0,\"max\":0},{\"attribute\":\"SHAPE_LEN\",\"count\":1,\"type\":\"number\",\"values\":[0],\"min\":0,\"max\":0},{\"attribute\":\"STAZZA_MAX\",\"count\":1,\"type\":\"number\",\"values\":[0],\"min\":0,\"max\":0},{\"attribute\":\"TC_CODDEN\",\"count\":1,\"type\":\"number\",\"values\":[0],\"min\":0,\"max\":0},{\"attribute\":\"TIPO_MOD\",\"count\":1,\"type\":\"string\",\"values\":[\"01\"]},{\"attribute\":\"VEL_MAX\",\"count\":1,\"type\":\"number\",\"values\":[0],\"min\":0,\"max\":0},{\"attribute\":\"VEL_MAX_MP\",\"count\":1,\"type\":\"number\",\"values\":[0],\"min\":0,\"max\":0},{\"attribute\":\"color\",\"count\":1,\"type\":\"string\",\"values\":[\"rgba(156,222,187,1)\"]},{\"attribute\":\"wh\",\"count\":1,\"type\":\"number\",\"values\":[1],\"min\":1,\"max\":1}]}]}}"
+}
